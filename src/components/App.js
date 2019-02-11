@@ -20,7 +20,7 @@ class App extends Component {
           >
             <CommentDetail
               author="Cody"
-              timeAgo="Today at 4:45PM"
+              timeAgo={new Date().toLocaleTimeString()}
               userComment="Nice Post!"
             />
           </ApprovalCard>
@@ -33,7 +33,7 @@ class App extends Component {
         >
           <CommentDetail
             author="Cody"
-            timeAgo="Today at 4:45PM"
+            timeAgo={new Date().toLocaleTimeString()}
             userComment="Nice Post!"
           />
         </ApprovalCard>
